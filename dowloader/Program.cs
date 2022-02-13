@@ -11,7 +11,7 @@ namespace dowloader
         static void Main(string[] args)
         {
             Downloader downloader = new Downloader();
-            downloader.InitDownlaod();
+            downloader.Init();
         }
     }
 }
