@@ -7,19 +7,17 @@ using System.Linq;
 
 namespace Dowloader.Services
 {
-    public class VideoService : IVideo
+    public abstract class BaseVideoService : IVideo
     {
-        public VideoService() { }
+        public BaseVideoService() { }
 
         public virtual void Init(Url url)
         {
             url.VideoUrls = GetVideosUrl(url.BaseUrl);
         }
 
-        public virtual void BeginDownload(Video videos, string folder)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void BeginDownload(Video videos, string folder);
+
         public List<string> GetVideosUrl(string url)
         {
             List<string> result = url.Contains("|") ? url.Split("|").ToList() : new List<string>() { url };

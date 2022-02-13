@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Dowloader.Services
 {
-    public class YoutubeService : VideoService
+    public class YoutubeService : BaseVideoService
     {
         public YoutubeService() : base() { }
 

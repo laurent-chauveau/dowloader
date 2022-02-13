@@ -11,7 +11,7 @@ namespace dowloader
     {
         public Downloader() { }
 
-        public void InitDownlaod()
+        public void Init()
         {
             Url url = new Url();
             Console.WriteLine("Video's urls (Separate urls with a pipe) :");
