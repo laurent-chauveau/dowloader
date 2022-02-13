@@ -18,8 +18,7 @@ namespace dowloader
             url.BaseUrl = Console.ReadLine();
             Console.WriteLine("Folder to save videos");
             url.Folder = Console.ReadLine();
-            Console.WriteLine("Youtube video ? Yes - No");
-            url.isYoutube = Console.ReadLine().ToLower().Equals("yes");
+            url.isYoutube = url.BaseUrl.Contains("youtube.com");
 
             if (url.isYoutube)
             {
