@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dowloader", "dowloader\dowloader.csproj", "{787BFDC8-11CB-412C-A10C-675D97C24875}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dowloader", "dowloader\Dowloader.csproj", "{787BFDC8-11CB-412C-A10C-675D97C24875}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
